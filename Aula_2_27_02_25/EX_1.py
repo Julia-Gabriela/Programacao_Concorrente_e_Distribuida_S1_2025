@@ -8,7 +8,7 @@ def tarefa():
 
     #bloco principal (main)
 
-    thread = threading.Thread(target= tarefa)
-    thread.start() # inicia a thread
-    thread.join() # Aguarda a conclusão do thread
-    print("Thread principal finalizada")
+thread = threading.Thread(target = tarefa)
+thread.start() # inicia a thread
+thread.join() # Aguarda a conclusão do thread
+print("Thread principal finalizada")
